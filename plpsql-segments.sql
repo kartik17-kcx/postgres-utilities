@@ -1,5 +1,5 @@
 	-- DB OBJECTS
-	`CREATE OR REPLACE FUNCTION attryb.get_segment_results(
+	`CREATE OR REPLACE FUNCTION dbt.get_segment_results(
     anonymous_id TEXT,
     user_id TEXT,
     segment_rules TEXT
